@@ -2,7 +2,7 @@ import pytest
 from django.urls import reverse
 from bs4 import BeautifulSoup
 
-from tests_and_shit.session_2025_01.lesson_17.http_server import response
+
 
 
 @pytest.mark.django_db
