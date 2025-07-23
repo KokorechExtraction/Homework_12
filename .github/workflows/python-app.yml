@@ -21,4 +21,4 @@ jobs:
         uv sync --locked --no-dev
     - name: Test with pytest
       run: |
-        poetry run pytest
+        uv run pytest
